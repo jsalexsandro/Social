@@ -31,7 +31,7 @@ export default function RootLayout() {
           <MailboxIcon size={ 22 }/>
           <h1>Social</h1>
         </Header.Root>
-        <main className="w-full h-full"> 
+        <main className="w-full h-[calc(100%_-_96px)]"> 
           <RenderPage page={ page } pageName="Home" Component={ <Home/> } />
         </main>
         <Nav.Root>
